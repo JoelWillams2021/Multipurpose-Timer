@@ -1,132 +1,47 @@
-body{
+body {
     background-color: gainsboro;
 }
 
-.Title{
-    font-family: "Poppins" , sans-serif;
+.Title {
+    font-family: "Poppins", sans-serif;
     text-align: center;
 }
 
-.Subtitle-One{
-    font-family: "Poppins" , sans-serif;
+.Subtitle-One {
+    font-family: "Poppins", sans-serif;
     text-align: center;
 }
 
-.Subtitle{
-    font-family: "Source Sans Pro" , sans-serif;
+.Subtitle {
+    font-family: "Source Sans Pro", sans-serif;
     text-align: center;
 }
 
-.Timer-Display{
-    font-family: "Source Sans Pro" , sans-serif;
-    text-align: center; 
+.Timer-Display {
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    margin-top: 10px;
 }
 
-.Timer-Information{
-    font-family: "Source Sans Pro" , sans-serif;
+.Timer-Information {
+    font-family: "Source Sans Pro", sans-serif;
     text-align: center;
 }
 
-.Timer-Form{
-    font-family: "Source Sans Pro" , sans-serif;
-    text-align: center;
+.Timer-Form {
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
-input[type=text] {
-    border: none;
-    border-bottom: 2px solid black;
-  }
-
-.container{
+.container {
+    margin-top: 30px;
     position: relative;
-    height: 50px;
+    max-height: 50px;
 }
 
-.center{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-@media only screen and (max-width: 320px) {
-
-    .Timer-Display{
-        margin-top: 15vh;
-
-    }
-
-    #Timer-Button-One {
-        margin-top: 14vh;
-        margin-left: 10vw;
-    }
-    #Timer-Button-Second{
-        margin-left: 10vw;
-    }
-
-    #Timer-Button-Third{
-        margin-left: 10vw;
-    }
-
-    #Timer-Button-Fourth{
-        margin-left: 10vw;
-    }
-
-    #Timer-Button-Fifth{
-        margin-left: 10vw;
-    }
-  }
-
-  @media only screen and (min-width: 321px) and (max-width: 376px) {
-    .Timer-Display{
-        margin-top: 15vh;
-    }
-
-    #Timer-Button-One {
-        margin-top: 14vh;
-        margin-left: 12vw;
-    }
-    #Timer-Button-Second{
-        margin-left: 12vw;
-    }
-
-    #Timer-Button-Third{
-        margin-left: 12vw;
-    }
-
-    #Timer-Button-Fourth{
-        margin-left: 12vw;
-    }
-
-    #Timer-Button-Fifth{
-        margin-left: 12vw;
-    }
-  }
-
-  @media only screen and (min-width: 377px) and (max-width: 426px) {
-    .Timer-Display{
-        margin-top: 15vh;
-    }
-
-    #Timer-Button-One {
-        margin-top: 14vh;
-        margin-left: 12vw;
-    }
-    #Timer-Button-Second{
-        margin-left: 12vw;
-    }
-
-    #Timer-Button-Third{
-        margin-left: 12vw;
-    }
-
-    #Timer-Button-Fourth{
-        margin-left: 12vw;
-    }
-
-    #Timer-Button-Fifth{
-        margin-left: 12vw;
-    }
-  }

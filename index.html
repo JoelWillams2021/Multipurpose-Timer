@@ -15,18 +15,17 @@
     <h1 class="Title">Multipurpose Timer</h1>
     <h1 class="Subtitle-One">Helpful Information:</h1>
     <h2 class="Subtitle">Input any Second Values in the Form Below </h2>
-    <h2 class="Subtitle">Minutes to Seconds Conversion is: Minute Value x 60</h2>
-    <h2 class="Subtitle">Seconds to Minutes Conversion is: Minute Value / 60</h2>
+    <h2 class="Subtitle">Minutes to Seconds Conversion is:  Value x 60</h2>
+    <h2 class="Subtitle">Seconds to Minutes Conversion is:  Value / 60</h2>
 
     <form class="Timer-Form">
-        <input type="text" id="timerValue" placeholder="Timer Value (sec)"><br>
+        <input type="text" id="timerValue" name="timerValue" placeholder="Timer Value (sec)"><br>
     </form> 
 
     <div class="container">
         <div class="center">
-            <button id="Timer-Button-One" onclick="timer()"> Start Timer </button>
-            <button id="Timer-Button-Second" onclick="timer()"> Reset Timer </button>
-            <button id="Timer-Button-Third"  onclick="stopTimer()"> Cancel Timer </button>
+            <button id="Timer-Button-One" onclick="timer()"> Start/Reset Timer </button>
+            <button id="Timer-Button-Third"  onclick="stopTimer()"> Stop Timer Sound </button>
             <button id="Timer-Button-Fourth"> Pause Timer </button>
             <button id="Timer-Button-Fifth"> Resume Timer </button>
         </div>
